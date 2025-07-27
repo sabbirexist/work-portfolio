@@ -1,19 +1,19 @@
 {
   "personal": {
-    "name": "SABBIR",
-    "title": "Video Editor | Mastering Visuals",
-    "bio": "I’m a passionate video editor with a sharp eye for detail and a deep love for storytelling. From raw footage to polished final cut, I bring ideas to life through pacing, rhythm, color, and sound.",
-    "email": "framesbysabbir@gmail.com",
-    "profileImage": "/dist/profile.jpg",
+    "name": "Your Name",
+    "title": "Video Editor & Creative Storyteller",
+    "bio": "Passionate video editor with expertise in creating compelling visual narratives. Specializing in commercial, documentary, and creative content that engages and inspires audiences.",
+    "email": "your.email@example.com",
+    "profileImage": "https://i.postimg.cc/k4wS1tYx/profile.jpg",
     "social": {
-      "github": "https://github.com/sabbirexist",
-      "linkedin": "https://linkedin.com/in/sabbirexist",
-      "instagram": "https://instagram.com/sabbir.exist",
-      "twitter": "https://twitter.com/visualsbysabbir"
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername",
+      "instagram": "https://instagram.com/yourusername",
+      "twitter": "https://twitter.com/yourusername"
     }
   },
   "about": {
-    "description": "I’m a video editor with 1 year of experience, skilled in Adobe Premiere Pro and After Effects. I specialize in creating both short and long form videos that tell a story and keep viewers engaged. I focus on making videos look professional and polished by paying close attention to detail. Whether it’s for social media or other projects, I bring ideas to life through editing.",
+    "description": "With over 5 years of experience in video editing, I bring stories to life through compelling visual narratives. My expertise spans across commercial, documentary, and creative content, always focusing on engaging the audience and delivering impactful messages.",
     "skills": [
       "Video Editing",
       "Color Grading",
@@ -24,8 +24,10 @@
     ],
     "software": [
       "Adobe Premiere Pro",
-      "After Effects",
       "DaVinci Resolve",
+      "After Effects",
+      "Final Cut Pro",
+      "Avid Media Composer",
       "Adobe Audition"
     ]
   },
@@ -160,6 +162,51 @@
       "role": "Educational Content Editor",
       "tools": "Premiere Pro, Photoshop",
       "duration": "45 seconds",
+      "year": "2024",
+      "category": "Reels",
+      "aspectRatio": "9:16",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "Dance Challenge Reel",
+      "description": "Trending dance challenge video with smooth transitions and beat synchronization.",
+      "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "client": "Dance Studio",
+      "role": "Social Media Editor",
+      "tools": "CapCut, Premiere Pro",
+      "duration": "20 seconds",
+      "year": "2024",
+      "category": "Reels",
+      "aspectRatio": "9:16",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "Food Recipe Short",
+      "description": "Quick cooking tutorial with appetizing visuals and step-by-step editing.",
+      "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "client": "Food Channel",
+      "role": "Content Editor",
+      "tools": "Premiere Pro, Color Grading",
+      "duration": "60 seconds",
+      "year": "2024",
+      "category": "Reels",
+      "aspectRatio": "9:16",
+      "featured": true
+    },
+    {
+      "id": 12,
+      "title": "Travel Destination Reel",
+      "description": "Stunning travel footage compiled into an engaging vertical format for social media.",
+      "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "client": "Travel Agency",
+      "role": "Travel Content Creator",
+      "tools": "DaVinci Resolve, Premiere Pro",
+      "duration": "30 seconds",
       "year": "2024",
       "category": "Reels",
       "aspectRatio": "9:16",

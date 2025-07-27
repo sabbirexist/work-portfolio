@@ -72,7 +72,14 @@ export const getEmbedUrl = (url, autoplay = false, mute = false) => {
 
 // Helper function to get thumbnail from video URL
 export const getThumbnail = (url, customThumbnail = null) => {
-  if (customThumbnail) return customThumbnail
+  if (customThumbnail) {
+    // Check if customThumbnail is a direct URL
+    if (customThumbnail.startsWith('http://') || customThumbnail.startsWith('https://')) {
+      return customThumbnail;
+    }
+    // If not a URL, assume it's a local path or base64 and return it
+    return customThumbnail;
+  }
 
   // YouTube thumbnail
   if (url.includes('youtube.com/watch')) {
